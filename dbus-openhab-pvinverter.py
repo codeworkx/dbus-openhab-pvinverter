@@ -166,6 +166,7 @@ class DbusOpenhabService:
  
   def _getInverterStatus(self):    
     data = self._getOpenhabItemState("InverterStatus");
+    # FIXME
     data = 0
     return int(data)
 
